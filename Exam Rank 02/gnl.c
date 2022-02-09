@@ -30,12 +30,12 @@ char	*get_next_line(int fd)
 	if (!new_a)
 		return (NULL);
 	i = 0;
-	while (new_a[i])
+	while (a[i])
 	{
 		new_a[i] = a[i];
 		i++;
 	}
-	a[i] = '\0';
+	new_a[i] = '\0';
 	return (new_a);
 }
 
