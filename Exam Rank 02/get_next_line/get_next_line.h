@@ -6,7 +6,7 @@
 /*   By: ffrau <ffrau@student.42roma.it>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/26 12:42:28 by ffrau             #+#    #+#             */
-/*   Updated: 2022/02/26 12:44:30 by ffrau            ###   ########.fr       */
+/*   Updated: 2022/03/01 11:57:27 by ffrau            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,7 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <fcntl.h>
+
+char	*get_next_line(int fd);
 
 #endif
